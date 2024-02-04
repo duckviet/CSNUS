@@ -11,7 +11,7 @@ const KnightTour: React.FC<FormProps> = ({ action, size }) => {
     <div>
       <div className="container w-1/2 py-10 h-fit bg-white rounded-lg shadow-xl flex flex-col items-center">
         <h2 className="text-2xl font-bold flex items-center text-gray-800">
-          The Knight's Tour <FaChessKnight size={20} />
+          The Knight Tour <FaChessKnight size={20} />
         </h2>
         <form
           id="myForm"
