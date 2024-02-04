@@ -14,14 +14,14 @@ export default function Home() {
     {
       id: 1,
       app: "/knighttour",
-      image: "https://i.postimg.cc/W3FZxXbV/knight-01.png",
+      image: "public/knight-01.png",
       title: "The Knight's Tour",
       content: "Just a bonus assignment form MS thuonghtt",
     },
     {
       id: 2,
       app: "/puzzle",
-      image: "https://i.postimg.cc/htB0TW4d/puzzle-01.png",
+      image: "public/puzzle-01.png",
       title: "8 Puzzle",
       content: "Just a bonus assignment form MS thuonghtt",
     },

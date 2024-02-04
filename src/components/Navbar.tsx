@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="flex-1">
             <Link href="/">
               <Image
-                src="https://i.postimg.cc/zvBKP7Mw/cs112-01.png"
+                src="public/cs112-01.png"
                 alt="Home"
                 className="w-10 h-10 object-fill"
               />
