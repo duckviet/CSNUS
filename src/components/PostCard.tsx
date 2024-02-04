@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { title } from "process";
 
@@ -12,7 +13,7 @@ const PostCard: React.FC<HandleProps> = ({ side, img, tittle, content }) => {
   return (
     <div className="card bg-base-100 shadow-xl border">
       <div>
-        <img src={img} alt="Movie" />
+        <Image src={img} alt="Movie" />
       </div>
       <div className="card-body">
         <h2 className="card-title">{tittle}</h2>
