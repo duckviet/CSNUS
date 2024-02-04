@@ -46,7 +46,7 @@ const KnightTour: React.FC<FormProps> = ({ action, size }) => {
             className="button-28 mt-4 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700 mb-5"
             type="submit"
           >
-            Start the Knight's Tour
+            Start the Knight Tour
           </button>
         </form>
         <div
