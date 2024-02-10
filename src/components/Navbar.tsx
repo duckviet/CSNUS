@@ -9,7 +9,9 @@ const Navbar = () => {
           <div className="flex-1">
             <Link href="/">
               <Image
-                src="public/cs112-01.png"
+                width={200}
+                height={200}
+                src="/pic/cs112-01.svg"
                 alt="Home"
                 className="w-10 h-10 object-fill"
               />

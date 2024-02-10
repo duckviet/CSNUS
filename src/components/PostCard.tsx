@@ -13,7 +13,7 @@ const PostCard: React.FC<HandleProps> = ({ side, img, tittle, content }) => {
   return (
     <div className="card bg-base-100 shadow-xl border">
       <div>
-        <Image src={img} alt="Movie" />
+        <Image width={400} height={400} src={img} alt="Movie" />
       </div>
       <div className="card-body">
         <h2 className="card-title">{tittle}</h2>
